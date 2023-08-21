@@ -1,0 +1,112 @@
+/*definitions des couleurs*/
+:root
+    {
+        --couleurfonce:#1b6535;
+        --couleurmedium:#a8c66c;
+        --couleurpale:#e1dd72;
+    }
+
+body 
+    {
+        color: var(--couleurfonce);
+        background-color: var(--couleurfonce);
+    }
+
+h2 
+    {
+        background-color: var(--couleurmedium);
+        padding-left: 40px;
+    }
+
+p 
+    {
+        color: black;
+    }
+
+a 
+    {
+        color: black;
+
+    }
+
+ul 
+    {
+        color: black;
+
+    }
+
+/*cadre au dessus du menu*/
+#classicBox
+   {
+       min-width: 818px;
+       width:60%;
+       height:200px;
+       margin-left:auto; 
+       margin-right:auto;
+       padding-top : 10px;
+       padding-bottom : 10px;
+       padding-left : 10px;
+       padding-right : 10px;
+       background-color: var(--couleurpale);
+   } 
+#box
+   {
+        display:flex;
+        justify-content: flex-start;
+        text-align: center;
+        /* background-color: royalblue; */
+   }
+
+/*boite flottante a gauche*/
+#photoBox
+    {
+        
+        /* background-color: purple; */
+        height :200px ;
+        width : 200px;
+    }
+
+#photo
+    {
+        clip-path: ellipse(50% 50%);
+    }
+
+#nameBox
+    {
+        /* display: flex; */
+        display: table-cell;
+        vertical-align: middle;
+        /* justify-content: center;
+        align-items: center;  */
+        /* position : relative; */
+        height:200px;
+        width:100%;
+        /* background-color: coral; */
+    }
+
+#name
+   {    
+        /* position : absolute; */
+        /* /* top: 50%;  */
+        /* left: 100%;  */
+        /* transform: translate(-50%,-50%); */
+
+        padding-top : 68px;
+        height:auto;
+        font-weight:bold;
+        font-size:64px;
+        padding-left: 10px;
+        /* background-color: redvar(--couleurpale); */
+   } 
+
+/*style du contenu de la page*/
+.container
+{
+  min-width: 818px;
+  width:60%;
+  text-align:justify;
+  margin-left:auto; 
+  margin-right:auto; 
+  padding:10px 10px 10px 10px;
+  background-color: var(--couleurmedium);
+}
